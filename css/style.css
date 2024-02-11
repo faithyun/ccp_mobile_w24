@@ -123,32 +123,6 @@ li {
     margin: auto;
 }
 
-
-@media screen and (min-width: 768px) {
-    figure {
-        display: inline-block;
-        margin: 0 10px; 
-        text-align: center;
-    }
-
-    figcaption {
-        margin-top: 10px;
-    }
-
-    #skip {
-        position: absolute;
-        top: 0px;
-        left: 10px;
-    }
-
-    .thumbnail {
-        display: inline-block;
-        margin: 0 10px;
-    }
-
-}
-
-
 @media (prefers-reduced-motion: reduce) {
     h1 {
         animation: none;
