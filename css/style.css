@@ -149,33 +149,6 @@ li {
 }
 
 
-@media (prefers-reduced-motion: no-preference) {
-    h1 {
-        position: absolute;
-        left: 0;
-        animation: mymove 4s ease-in-out 5 alternate forwards;
-    }
-
-    h2 {
-        padding-top: 80px;
-    }
-
-    @keyframes mymove {
-        0% {
-            left: 0;
-        }
-        50% {
-            left: calc(100% - 150px); 
-        }
-        100% {
-            left: calc(50% - 50px);
-        }
-    }
-
-
-
-}
-
 @media (prefers-reduced-motion: reduce) {
     h1 {
         animation: none;
